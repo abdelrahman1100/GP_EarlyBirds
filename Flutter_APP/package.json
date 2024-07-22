@@ -1,0 +1,38 @@
+{
+  "name": "gp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "seed": "node seeds/masterSeed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsdom": "^24.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "newsapi": "^2.4.1",
+    "nlpcloud": "^2.0.5",
+    "node-summarizer": "^1.0.7",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "python-shell": "^5.0.0",
+    "say": "^0.16.0",
+    "validator": "^13.11.0"
+  }
+}
